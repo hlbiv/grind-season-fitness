@@ -1,15 +1,14 @@
-// TODO: Replace placeholder schedule with Dymen's actual LA Fitness availability
 // TODO: Replace CALENDLY_URL with Dymen's actual Calendly link
 const CALENDLY_URL = 'https://calendly.com/grindseasonfitness'
 
 const schedule = [
-  { day: 'Monday', time: 'TBD', available: true },
-  { day: 'Tuesday', time: 'TBD', available: true },
-  { day: 'Wednesday', time: 'TBD', available: true },
-  { day: 'Thursday', time: 'TBD', available: true },
-  { day: 'Friday', time: 'TBD', available: true },
-  { day: 'Saturday', time: 'TBD', available: true },
-  { day: 'Sunday', time: 'Rest Day', available: false },
+  { day: 'Monday', time: '6:00 AM – 10:00 AM · 4:00 PM – 9:00 PM', available: true },
+  { day: 'Tuesday', time: '6:00 AM – 10:00 AM · 4:00 PM – 9:00 PM', available: true },
+  { day: 'Wednesday', time: '6:00 AM – 10:00 AM · 4:00 PM – 9:00 PM', available: true },
+  { day: 'Thursday', time: '6:00 AM – 10:00 AM · 4:00 PM – 9:00 PM', available: true },
+  { day: 'Friday', time: '6:00 AM – 10:00 AM · 4:00 PM – 9:00 PM', available: true },
+  { day: 'Saturday', time: '8:00 AM – 4:00 PM', available: true },
+  { day: 'Sunday', time: '8:00 AM – 4:00 PM', available: true },
 ]
 
 export default function Schedule() {
